@@ -1,19 +1,4 @@
-
-                        <!DOCTYPE html>
-                        <html lang="en">
-                        <head>
-                            <meta charset="UTF-8">
-                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-							<style>
-								body {
-									background-color: white; /* Ensure the iframe has a white background */
-								}
-
-								
-							</style>
-                        </head>
-                        <body>
-                            <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-HK">
 <head>
     <meta charset="UTF-8">
@@ -21,7 +6,6 @@
     <title>孩子牙齒成長與護齒全攻略 | 吳鍶淇牙醫</title>
     <meta name="description" content="兒童牙齒護理指南 - 由吳鍶淇牙醫提供">
     
-    <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦷</text></svg>">
     
     <style>
@@ -52,7 +36,6 @@
             min-height: 100vh;
         }
 
-        /* Print styles */
         @media print {
             body {
                 background: white;
@@ -70,7 +53,6 @@
             }
         }
 
-        /* Container */
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -138,6 +120,26 @@
             margin-top: 10px;
             position: relative;
             z-index: 1;
+        }
+
+        /* Divider between languages */
+        .language-divider {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin: 32px 0 20px;
+            color: var(--blue-dark);
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        .language-divider::before,
+        .language-divider::after {
+            content: '';
+            flex: 1;
+            height: 3px;
+            background: linear-gradient(90deg, var(--yellow), var(--blue));
+            border-radius: 3px;
         }
 
         /* Sections */
@@ -474,6 +476,8 @@
             </button>
         </div>
 
+        <!-- ==================== CHINESE VERSION ==================== -->
+
         <!-- Section 1: 乳牙功能 -->
         <div class="section">
             <h2>🦷 乳牙功能與成長里程碑</h2>
@@ -540,23 +544,23 @@
             
             <div class="steps">
                 <div class="step">
-                    <strong>🔔 提示 Trigger</strong>
+                    <strong>🔔 提示</strong>
                     固定時間與地點（早餐後、睡前），建立條件反射
                 </div>
                 <div class="step blue">
-                    <strong>🔄 常規 Routine</strong>
+                    <strong>🔄 常規</strong>
                     家長示範，孩子先自己刷，滿足自主感
                 </div>
                 <div class="step">
-                    <strong>👀 監督 Supervise</strong>
+                    <strong>👀 監督與補刷</strong>
                     7-8歲前每晚由家長「最後補刷」
                 </div>
                 <div class="step blue">
-                    <strong>⭐ 正向獎勵 Reward</strong>
+                    <strong>⭐ 正向獎勵</strong>
                     打卡集點貼紙，切忌用甜食獎勵
                 </div>
                 <div class="step">
-                    <strong>📅 定期跟進 Follow-up</strong>
+                    <strong>📅 定期跟進</strong>
                     每半年檢查、塗氟及六歲臼齒窩溝封閉
                 </div>
             </div>
@@ -569,7 +573,7 @@
             <ul style="list-style:none; padding:0; margin-top:8px;">
                 <li style="margin-bottom:8px;">✅ <strong>手柄大小合用嗎？</strong>適合兒童小手抓握、防滑厚實握柄</li>
                 <li style="margin-bottom:8px;">✅ <strong>刷頭細小、軟毛？</strong>刷頭約2顆牙齒長度，極軟毛保護牙齦</li>
-                <li>✅ <strong>孩子會天天開心使用嗎？</strong>手動/電動/智能App皆可，關鍵是<strong>刷足2分鐘＋家長補刷</strong></li>
+                <li>✅ <strong>孩子會天天開心使用嗎？</strong>手動/電動/智能App皆可，關鍵是<strong>刷足2分鐘時間＋家長補刷</strong></li>
             </ul>
         </div>
 
@@ -617,10 +621,159 @@
             </ul>
         </div>
 
+        <!-- ==================== LANGUAGE DIVIDER ==================== -->
+        <div class="language-divider">🌐 English Version</div>
+
+        <!-- ==================== ENGLISH VERSION ==================== -->
+
+        <!-- Section 1 EN: Primary Teeth Functions -->
+        <div class="section">
+            <h2>🦷 Primary Teeth Functions & Developmental Milestones</h2>
+            <p style="color:#666; margin-bottom:10px;">❌ Common Misconception: "Primary teeth will eventually fall out anyway, so cavities don't matter"</p>
+            
+            <div class="grid-4">
+                <div class="card">
+                    <div class="icon">🍽️</div>
+                    <h4>Chewing & Nutrient Absorption</h4>
+                    <p>Thorough chewing helps with digestion and ensures healthy physical development</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🗣️</div>
+                    <h4>Speech & Clear Pronunciation</h4>
+                    <p>Helps children speak clearly and pronounce words correctly (like s, z, and t sounds)</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🧭</div>
+                    <h4>Space Reservation for Adult Teeth</h4>
+                    <p>Primary teeth act as guides for adult teeth, keeping space and preventing crowding</p>
+                </div>
+                <div class="card">
+                    <div class="icon">😊</div>
+                    <h4>Confidence & Quality Sleep</h4>
+                    <p>A healthy smile boosts confidence and ensures good sleep without tooth pain</p>
+                </div>
+            </div>
+
+            <div class="alert">
+                <span class="alert-icon">⚠️</span>
+                <span><strong>Serious Warning:</strong> Severe decay in primary teeth can cause intense pain and swollen gums, and may damage the adult teeth growing underneath — causing permanent damage that cannot be fixed!</span>
+            </div>
+        </div>
+
+        <!-- Section 2 EN: Fluoride Toothpaste -->
+        <div class="section">
+            <h2>🪥 Fluoride Toothpaste Usage Guide</h2>
+            <p>Fluoride is an effective <strong>protective coating</strong> that helps repair and strengthen children's teeth. Brush twice daily — parents must supervise and teach children to spit out the foam, avoiding swallowing.</p>
+            
+            <div class="toothpaste-box">
+                <strong>📏 Hong Kong Reference Dosage (By Age):</strong>
+                <div class="age-dots">
+                    <div class="age-item">
+                        <span class="dot xs"></span>
+                        6 months to 2 years<br>A grain of rice size
+                    </div>
+                    <div class="age-item">
+                        <span class="dot sm"></span>
+                        2 to 6 years<br>A pea-sized amount
+                    </div>
+                    <div class="age-item">
+                        <span class="dot md"></span>
+                        6 years and above<br>About 1/3 of brush head
+                    </div>
+                </div>
+            </div>
+            <p style="font-style:italic; color:#1e5f7a; font-size:0.9rem;">💡 Every child has different cavity risk levels. If unsure which amount to use, ask your dentist.</p>
+        </div>
+
+        <!-- Section 3 EN: Habit Building -->
+        <div class="section">
+            <h2>📋 Smart Habit Building: Six-Month Plan for Good Brushing Habits</h2>
+            <p>Getting children to brush doesn't have to be a battle! Use five simple steps:</p>
+            
+            <div class="steps">
+                <div class="step">
+                    <strong>🔔 Set a Trigger</strong>
+                    Pick the same time and place every day (after breakfast, before bed) so brushing becomes automatic
+                </div>
+                <div class="step blue">
+                    <strong>🔄 Make It a Routine</strong>
+                    Show your child the correct way first, then let them brush by themselves to feel independent
+                </div>
+                <div class="step">
+                    <strong>👀 Check & Help Finish</strong>
+                    Before age 7-8, parents should do a thorough final brushing every night
+                </div>
+                <div class="step blue">
+                    <strong>⭐ Give Positive Rewards</strong>
+                    Use sticker charts or a reward system — don't use candy as rewards
+                </div>
+                <div class="step">
+                    <strong>📅 Regular Check-ups</strong>
+                    Visit the dentist every six months for cleaning, fluoride treatment, and protective coatings
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4 EN: Choosing Toothbrush -->
+        <div class="section">
+            <h2>🪥 How to Choose the Right Toothbrush for Your Child</h2>
+            <p><strong>Three Important Questions:</strong></p>
+            <ul style="list-style:none; padding:0; margin-top:8px;">
+                <li style="margin-bottom:8px;">✅ <strong>Is the handle the right size?</strong> Choose a toothbrush with a thick, easy-to-grip handle designed for small children's hands</li>
+                <li style="margin-bottom:8px;">✅ <strong>Are the bristles small and soft?</strong> The brush head should be about the size of 2 teeth; bristles must be very soft to protect tender gums</li>
+                <li>✅ <strong>Will your child actually want to use it every day?</strong> Regular, electric, or smart app toothbrushes all work — what matters most is <strong>brushing for 2 minutes fully + parent helping finish</strong></li>
+            </ul>
+        </div>
+
+        <!-- Section 5 EN: Positive Communication -->
+        <div class="section">
+            <h2>🦸 Making Dental Visits Easy & Fun: Positive Communication Tips</h2>
+            <div class="badge">✨ Best Time for First Dental Visit: Around one year old or when the first baby tooth comes in</div>
+            
+            <div class="dos-donts">
+                <div class="do-box">
+                    <h4>👍 What You Should Say (DOs)</h4>
+                    <ul>
+                        <li>Use books, cartoons, or pretend play to introduce the dental office</li>
+                        <li>"The dentist will count your teeth and give them a nice wash!"</li>
+                        <li>Tell your child: "The dentist is your friend and superhero who takes care of teeth"</li>
+                    </ul>
+                </div>
+                <div class="dont-box">
+                    <h4>🚫 What You Shouldn't Say (DON'Ts)</h4>
+                    <ul>
+                        <li>Never threaten: "If you don't listen, I'll take you to the dentist for a shot!"</li>
+                        <li>Don't mention scary things — saying "It won't hurt" makes kids more nervous</li>
+                        <li>Don't share your own dental fears with your child</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 6 EN: Daily Checklist -->
+        <div class="section">
+            <h2>✅ Parents' Daily Tooth Care Checklist</h2>
+            <ul class="checklist">
+                <li>
+                    <span class="checkbox">☐</span>
+                    <span><strong>When your child wakes up:</strong> Use age-appropriate fluoride toothpaste and brush for 2 minutes fully, then spit out the foam</span>
+                </li>
+                <li>
+                    <span class="checkbox">☐</span>
+                    <span><strong>Before bedtime:</strong> Let your child brush first ➔ Then you do a thorough final brushing (pay special attention to back teeth and between teeth)</span>
+                </li>
+                <li>
+                    <span class="checkbox">☐</span>
+                    <span><strong>Check the toothbrush:</strong> Replace the toothbrush right away if bristles are bent or damaged (change toothbrush every 2-3 months)</span>
+                </li>
+            </ul>
+        </div>
+
         <!-- Footer -->
         <div class="footer">
             <p class="name">🦷 吳鍶淇牙醫 Dr. Annette Ng</p>
             <p style="margin-top:4px;">定期檢查，從小建立健康微笑 😊</p>
+            <p style="margin-top:4px; font-size:0.95rem;">Regular checkups, building healthy smiles from childhood 😊</p>
         </div>
 
     </div>
@@ -629,13 +782,13 @@
         function sharePage() {
             if (navigator.share) {
                 navigator.share({
-                    title: '孩子牙齒成長與護齒全攻略',
-                    text: '由吳鍶淇牙醫提供的兒童護齒指南',
+                    title: '孩子牙齒成長與護齒全攻略 | Children\'s Dental Care Guide',
+                    text: '由吳鍶淇牙醫提供的兒童護齒指南 | By Dr. Annette Ng',
                     url: window.location.href,
                 }).catch(() => {});
             } else {
                 navigator.clipboard.writeText(window.location.href).then(() => {
-                    alert('連結已複製！您可以貼上分享給其他家長。');
+                    alert('連結已複製！您可以貼上分享給其他家長。\nLink copied! You can paste it to share with other parents.');
                 });
             }
         }
@@ -649,10 +802,3 @@
     </script>
 </body>
 </html>
-
-							<script>
-                            	
-							</script>
-                        </body>
-                        </html>
-                    
