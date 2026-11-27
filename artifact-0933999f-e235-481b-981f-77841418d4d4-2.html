@@ -1,0 +1,658 @@
+
+                        <!DOCTYPE html>
+                        <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+							<style>
+								body {
+									background-color: white; /* Ensure the iframe has a white background */
+								}
+
+								
+							</style>
+                        </head>
+                        <body>
+                            <!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>孩子牙齒成長與護齒全攻略 | 吳鍶淇牙醫</title>
+    <meta name="description" content="兒童牙齒護理指南 - 由吳鍶淇牙醫提供">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦷</text></svg>">
+    
+    <style>
+        :root {
+            --yellow-light: #fff9e6;
+            --yellow: #f7c948;
+            --yellow-dark: #e6a700;
+            --blue-light: #e5f4fb;
+            --blue: #0099cc;
+            --blue-dark: #0a3e5c;
+            --blue-text: #1e5f7a;
+            --white: #ffffff;
+            --shadow: 0 4px 20px rgba(0, 80, 120, 0.08);
+            --radius: 20px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(180deg, #fef9e7 0%, #f0f8fc 100%);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang HK', sans-serif;
+            color: #2c3e50;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                max-width: 100%;
+                box-shadow: none;
+                margin: 0;
+            }
+            .no-print {
+                display: none;
+            }
+            .section {
+                break-inside: avoid;
+            }
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #ffe174 0%, #ffd966 30%, #b8e4f0 100%);
+            border-radius: 28px;
+            padding: 28px 24px 22px;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -30px;
+            right: -30px;
+            width: 100px;
+            height: 100px;
+            background: rgba(255,255,255,0.3);
+            border-radius: 50%;
+        }
+
+        .header::after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            left: -20px;
+            width: 70px;
+            height: 70px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+        }
+
+        .header-icon {
+            font-size: 3rem;
+            margin-bottom: 8px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header h1 {
+            font-size: clamp(1.5rem, 4vw, 2.2rem);
+            font-weight: 800;
+            color: var(--blue-dark);
+            position: relative;
+            z-index: 1;
+            line-height: 1.3;
+        }
+
+        .header .subtitle {
+            display: inline-block;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--blue-text);
+            background: rgba(255,255,255,0.85);
+            padding: 8px 28px;
+            border-radius: 50px;
+            margin-top: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Sections */
+        .section {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 22px 20px;
+            margin-bottom: 16px;
+            box-shadow: var(--shadow);
+            border-left: 5px solid var(--yellow);
+        }
+
+        .section:nth-child(even) {
+            border-left-color: var(--blue);
+        }
+
+        .section h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--blue-dark);
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border-bottom: 2px dashed #fce18a;
+            padding-bottom: 10px;
+        }
+
+        .section h3 {
+            font-size: 1.1rem;
+            color: var(--blue-text);
+            margin: 12px 0 6px;
+            font-weight: 700;
+        }
+
+        /* Grid cards */
+        .grid-2, .grid-4 {
+            display: grid;
+            gap: 12px;
+            margin: 12px 0;
+        }
+
+        .grid-2 {
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        }
+
+        .grid-4 {
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        }
+
+        .card {
+            background: #fefdf7;
+            border-radius: 16px;
+            padding: 16px 14px;
+            text-align: center;
+            border: 1px solid #fce18a;
+        }
+
+        .card .icon {
+            font-size: 2rem;
+            margin-bottom: 6px;
+        }
+
+        .card h4 {
+            font-size: 1rem;
+            color: var(--blue-dark);
+            margin-bottom: 4px;
+            font-weight: 700;
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            color: #4a5568;
+        }
+
+        /* Alert */
+        .alert {
+            background: #fff8e1;
+            border: 2px solid #e6a700;
+            border-radius: 16px;
+            padding: 14px 18px;
+            margin-top: 14px;
+            font-weight: 600;
+            color: #7a5900;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            font-size: 0.95rem;
+        }
+
+        .alert .alert-icon {
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        /* Toothpaste guide */
+        .toothpaste-box {
+            background: var(--blue-light);
+            border-radius: 16px;
+            padding: 16px;
+            margin: 12px 0;
+        }
+
+        .age-dots {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            justify-content: center;
+            margin-top: 8px;
+        }
+
+        .age-item {
+            text-align: center;
+            font-weight: 600;
+            color: #003952;
+            font-size: 0.9rem;
+        }
+
+        .dot {
+            display: block;
+            margin: 0 auto 6px;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 0 0 3px #b8e4f0;
+        }
+
+        .dot.xs { width: 16px; height: 16px; background: #f5b042; }
+        .dot.sm { width: 22px; height: 22px; background: #f7c948; }
+        .dot.md { width: 28px; height: 28px; background: #e69b1c; }
+
+        /* Steps */
+        .steps {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .step {
+            flex: 1 1 140px;
+            background: #fefdf7;
+            border-radius: 14px;
+            padding: 14px 12px;
+            border-top: 4px solid var(--yellow);
+            font-size: 0.9rem;
+        }
+
+        .step.blue {
+            border-top-color: var(--blue);
+        }
+
+        .step strong {
+            display: block;
+            color: var(--blue-dark);
+            margin-bottom: 4px;
+            font-size: 0.95rem;
+        }
+
+        /* DOs and DON'Ts */
+        .dos-donts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 14px;
+            margin-top: 12px;
+        }
+
+        .do-box, .dont-box {
+            border-radius: 16px;
+            padding: 16px;
+        }
+
+        .do-box {
+            background: #e8f5e9;
+            border: 1px solid #81c784;
+        }
+
+        .dont-box {
+            background: #fce4e4;
+            border: 1px solid #e57373;
+        }
+
+        .do-box h4, .dont-box h4 {
+            margin-bottom: 8px;
+            font-size: 1rem;
+        }
+
+        .do-box h4 { color: #2e7d32; }
+        .dont-box h4 { color: #c62828; }
+
+        .do-box ul, .dont-box ul {
+            list-style: none;
+            padding: 0;
+            font-size: 0.9rem;
+        }
+
+        .do-box li::before { content: '✅ '; }
+        .dont-box li::before { content: '❌ '; }
+        .do-box li, .dont-box li {
+            margin-bottom: 6px;
+        }
+
+        /* Checklist */
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+
+        .checklist li {
+            padding: 10px 14px;
+            margin: 6px 0;
+            background: #f6fbfe;
+            border-radius: 12px;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            font-weight: 500;
+        }
+
+        .checklist li .checkbox {
+            font-size: 1.3rem;
+            color: var(--blue);
+            flex-shrink: 0;
+        }
+
+        /* Golden time badge */
+        .badge {
+            display: inline-block;
+            background: #fff3cd;
+            color: #7a5900;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+            border: 2px solid #f7c948;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: var(--blue-light);
+            border-radius: 20px;
+            margin-top: 8px;
+            font-weight: 600;
+            color: var(--blue-dark);
+            font-size: 1rem;
+        }
+
+        .footer .name {
+            font-size: 1.1rem;
+            color: #003153;
+        }
+
+        /* Buttons */
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 16px 0;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            border: none;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+
+        .btn-print {
+            background: var(--blue);
+            color: white;
+        }
+
+        .btn-print:hover {
+            background: #007799;
+        }
+
+        .btn-share {
+            background: var(--yellow);
+            color: #003153;
+        }
+
+        .btn-share:hover {
+            background: #e6b800;
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+            .header {
+                padding: 20px 16px;
+                border-radius: 22px;
+            }
+            .section {
+                padding: 16px 14px;
+            }
+            .steps {
+                flex-direction: column;
+            }
+            .step {
+                flex: 1 1 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <div class="header-icon">🦷✨</div>
+            <h1>孩子牙齒成長與護齒全攻略</h1>
+            <div class="subtitle">吳鍶淇牙醫 Dr. Annette Ng</div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="btn-group no-print">
+            <button class="btn btn-print" onclick="window.print()">
+                🖨️ 列印PDF
+            </button>
+            <button class="btn btn-share" onclick="sharePage()">
+                📤 分享給其他家長
+            </button>
+        </div>
+
+        <!-- Section 1: 乳牙功能 -->
+        <div class="section">
+            <h2>🦷 乳牙功能與成長里程碑</h2>
+            <p style="color:#666; margin-bottom:10px;">❌ 常見誤解：「乳牙遲早會換掉，蛀掉也沒關係」</p>
+            
+            <div class="grid-4">
+                <div class="card">
+                    <div class="icon">🍽️</div>
+                    <h4>咀嚼與營養吸收</h4>
+                    <p>充分咀嚼幫助消化，保障健康發育</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🗣️</div>
+                    <h4>說話與正確發音</h4>
+                    <p>輔助齒音（s、z、t）精準發音</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🧭</div>
+                    <h4>為恆牙預留空間</h4>
+                    <p>乳牙是恆牙「導航員」，維持牙弓空間</p>
+                </div>
+                <div class="card">
+                    <div class="icon">😊</div>
+                    <h4>自信社交與優質睡眠</h4>
+                    <p>健康笑容帶來自信，無痛好眠</p>
+                </div>
+            </div>
+
+            <div class="alert">
+                <span class="alert-icon">⚠️</span>
+                <span><strong>嚴重警訊：</strong>乳牙嚴重蛀牙會引發劇烈疼痛與牙齦腫脹，甚至感染底下的「恆牙胚」，對未來恆牙造成不可逆的永久損害！</span>
+            </div>
+        </div>
+
+        <!-- Section 2: 含氟牙膏 -->
+        <div class="section">
+            <h2>🪥 含氟牙膏使用指引</h2>
+            <p>氟化物是保護兒童牙齒的<strong>「修補與加固材料」</strong>。每日刷牙兩次，家長全程監督，教導吐出泡沫，避免吞食。</p>
+            
+            <div class="toothpaste-box">
+                <strong>📏 香港參考用量（按年齡）：</strong>
+                <div class="age-dots">
+                    <div class="age-item">
+                        <span class="dot xs"></span>
+                        6個月至2歲<br>一粒米大小
+                    </div>
+                    <div class="age-item">
+                        <span class="dot sm"></span>
+                        2歲至6歲<br>青豆大小
+                    </div>
+                    <div class="age-item">
+                        <span class="dot md"></span>
+                        6歲或以上<br>約牙刷頭1/3
+                    </div>
+                </div>
+            </div>
+            <p style="font-style:italic; color:#1e5f7a; font-size:0.9rem;">💡 不同孩子蛀牙風險各異，如有疑問請諮詢牙醫。</p>
+        </div>
+
+        <!-- Section 3: 專案管理思維 -->
+        <div class="section">
+            <h2>📋 專案管理思維：六個月習慣養成</h2>
+            <p>化解「刷牙大戰」不能單靠懲罰或強迫，運用五大步驟：</p>
+            
+            <div class="steps">
+                <div class="step">
+                    <strong>🔔 提示 Trigger</strong>
+                    固定時間與地點（早餐後、睡前），建立條件反射
+                </div>
+                <div class="step blue">
+                    <strong>🔄 常規 Routine</strong>
+                    家長示範，孩子先自己刷，滿足自主感
+                </div>
+                <div class="step">
+                    <strong>👀 監督 Supervise</strong>
+                    7-8歲前每晚由家長「最後補刷」
+                </div>
+                <div class="step blue">
+                    <strong>⭐ 正向獎勵 Reward</strong>
+                    打卡集點貼紙，切忌用甜食獎勵
+                </div>
+                <div class="step">
+                    <strong>📅 定期跟進 Follow-up</strong>
+                    每半年檢查、塗氟及六歲臼齒窩溝封閉
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: 挑選牙刷 -->
+        <div class="section">
+            <h2>🪥 如何挑選合適的刷牙工具？</h2>
+            <p><strong>三個核心提問：</strong></p>
+            <ul style="list-style:none; padding:0; margin-top:8px;">
+                <li style="margin-bottom:8px;">✅ <strong>手柄大小合用嗎？</strong>適合兒童小手抓握、防滑厚實握柄</li>
+                <li style="margin-bottom:8px;">✅ <strong>刷頭細小、軟毛？</strong>刷頭約2顆牙齒長度，極軟毛保護牙齦</li>
+                <li>✅ <strong>孩子會天天開心使用嗎？</strong>手動/電動/智能App皆可，關鍵是<strong>刷足2分鐘＋家長補刷</strong></li>
+            </ul>
+        </div>
+
+        <!-- Section 5: 正向溝通 -->
+        <div class="section">
+            <h2>🦸 打造無懼體驗：正向看牙溝通原則</h2>
+            <div class="badge">✨ 首次看牙黃金時機：一歲前後或第一顆乳牙萌出時</div>
+            
+            <div class="dos-donts">
+                <div class="do-box">
+                    <h4>👍 建議做的正向溝通</h4>
+                    <ul>
+                        <li>用繪本、卡通、扮家家酒介紹診所</li>
+                        <li>「牙醫會數數牙齒、幫牙齒洗澡喔！」</li>
+                        <li>將牙醫塑造為「保護牙齒的超級英雄」</li>
+                    </ul>
+                </div>
+                <div class="dont-box">
+                    <h4>🚫 應避免的錯誤言語</h4>
+                    <ul>
+                        <li>絕不威脅：「不聽話就帶你去打針！」</li>
+                        <li>避免負面暗示：「不會痛的/不要害怕」</li>
+                        <li>不在孩子面前分享看牙焦慮經驗</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 6: 日常清單 -->
+        <div class="section">
+            <h2>✅ 家長日常護齒實操清單</h2>
+            <ul class="checklist">
+                <li>
+                    <span class="checkbox">☐</span>
+                    <span><strong>起床後：</strong>使用適齡含氟牙膏刷牙2分鐘，吐出泡沫</span>
+                </li>
+                <li>
+                    <span class="checkbox">☐</span>
+                    <span><strong>睡前洗漱：</strong>孩子先自己刷 ➔ 家長最後徹底補刷（重點：後排臼齒與齒縫）</span>
+                </li>
+                <li>
+                    <span class="checkbox">☐</span>
+                    <span><strong>工具檢視：</strong>牙刷刷毛開叉立即更換（建議每2-3個月更換）</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p class="name">🦷 吳鍶淇牙醫 Dr. Annette Ng</p>
+            <p style="margin-top:4px;">定期檢查，從小建立健康微笑 😊</p>
+        </div>
+
+    </div>
+
+    <script>
+        function sharePage() {
+            if (navigator.share) {
+                navigator.share({
+                    title: '孩子牙齒成長與護齒全攻略',
+                    text: '由吳鍶淇牙醫提供的兒童護齒指南',
+                    url: window.location.href,
+                }).catch(() => {});
+            } else {
+                navigator.clipboard.writeText(window.location.href).then(() => {
+                    alert('連結已複製！您可以貼上分享給其他家長。');
+                });
+            }
+        }
+
+        window.addEventListener('beforeprint', () => {
+            document.querySelectorAll('.section').forEach(s => {
+                s.style.boxShadow = 'none';
+                s.style.border = '1px solid #ddd';
+            });
+        });
+    </script>
+</body>
+</html>
+
+							<script>
+                            	
+							</script>
+                        </body>
+                        </html>
+                    
